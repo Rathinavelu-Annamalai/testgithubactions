@@ -9,9 +9,9 @@ name: Java CI with Gradle
 
 on:
   push:
-    branches: [ "feature/deploy-jar-to-nexus" ]
+    branches: [ "mynewworkflow" ]
   pull_request:
-    branches: [ "feature/deploy-jar-to-nexus" ]
+    branches: [ "mynewworkflow" ]
 
 permissions:
   contents: read
